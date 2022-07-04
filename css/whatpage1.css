@@ -1,0 +1,84 @@
+body {
+    height: 100vh;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 12px;
+}
+
+.background img{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 80%;
+    width: 80%;
+        
+}
+
+.left_column{
+    background-image: url(../images/nav_side.jpg);
+    color: blanchedalmond;
+    text-align: left;
+    background-repeat: no-repeat;
+    height: max-content;
+    width: max-content;
+    background-size: 100% 100%;
+}
+
+
+.attorneys{
+    background-image: url(../images/content-navlink-attorneys.jpg);
+    height: 90px;
+    width: 160px; 
+
+}
+
+.subrogation{
+    background-image: url(../images/sub-02-subrogation.jpg);
+    object-fit: cover;
+    height: 120px;
+    width: 300px;
+    
+
+}
+
+.litigation{
+    background-image: url(../images/sub-02-litigation.jpg);
+    height: 120px;
+    width: 300px;
+    
+
+}
+
+.business{
+    background-image: url(../images/sub-02-business.jpg);
+    height: 120px;
+    width: 300px;
+    
+
+}
+
+.transportation{
+    background-image: url(../images/sub-02-warehouse.jpg);
+    height: 120px;
+    width: 300px;
+}
+
+.layout{
+    justify-content: center;
+    align-items: flex-start;
+}
+   
+    
